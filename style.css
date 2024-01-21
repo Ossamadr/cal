@@ -1,0 +1,36 @@
+body  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100svh;
+    background: #302f2f;
+}
+.container {
+    font-family:Geneva, Verdana, sans-serif;
+    width: 600px; 
+    max-width: 100%;
+    background: #0b109f;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#inp {
+    height: 30px;
+    width: 75%;
+    margin-bottom: 5px;
+    background: white;
+}
+button {
+    border: none;
+    background: #e15e0c;
+    color: white;
+    padding:8px 20px;
+    cursor: pointer;
+}
+.bottomSection {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
